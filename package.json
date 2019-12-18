@@ -1,0 +1,41 @@
+{
+  "name": "node-cache-obj",
+  "version": "1.0.0",
+  "description": "a simple cache module using typescript",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "cross-env NODE_ENV=test mocha -r espower-typescript/guess test/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenryYey/ts-obj-cache.git"
+  },
+  "author": "hengye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenryYey/koa-ts-logger/issues"
+  },
+  "homepage": "https://github.com/HenryYey/koa-ts-logger#readme",
+  "dependencies": {
+    "cross-env": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.0",
+    "@types/log4js": "^2.3.5",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.14",
+    "@types/supertest": "^2.0.8",
+    "assert": "^2.0.0",
+    "espower-typescript": "^9.0.2",
+    "fs": "0.0.1-security",
+    "koa": "^2.11.0",
+    "log4js": "^6.1.0",
+    "mocha": "^6.2.2",
+    "path": "^0.12.7",
+    "power-assert": "^1.6.1",
+    "supertest": "^4.0.2",
+    "typescript": "^3.7.3"
+  }
+}
