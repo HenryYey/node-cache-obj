@@ -35,12 +35,13 @@ myCache.setVal({
   cacheEffectiveTime: 1800000
 })
 
-const result = myCache.getVal(cacheKey)
+const result = myCache.getVal("a")
 // "{ name: "pony", age: "18" }"
 ```
 ### clean Cache 
 
-缓存容量默认为20个，缓存有效期默认为半小时，默认每隔半小时清除超过阈值的缓存对象。 你可以在defind cache时改变默认配置
+缓存容量默认为**20**个，缓存有效期默认为**半小时**，默认每隔半小时清除超过阈值的缓存对象。 你可以在defind cache时改变默认配置
+
 ```js
 // 配置接口
 interface ICacheOptions {
